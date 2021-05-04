@@ -50,5 +50,10 @@ def get_data(index_no):
         ).json() 
 
 
-for i in range(1000000,9999999):
+for i in range(1800000,1999999):
 	get_data(i)
+
+response = requests.post(
+        url='https://api.telegram.org/bot{0}/{1}'.format(token, method),
+        data={'chat_id':-1001448516010, 'text': 'Done start again'}
+        ).json()

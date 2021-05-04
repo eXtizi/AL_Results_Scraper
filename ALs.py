@@ -1,6 +1,6 @@
 import requests
 import json
-import csv
+
 
 token='1776016878:AAEJCHpS_N84FeBgQ8_B741xAGWEW12LnlM'
 method='sendMessage'
